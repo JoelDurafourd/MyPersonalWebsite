@@ -1,0 +1,14 @@
+#main-heading {
+ text-align: center;
+ padding: 25px;
+ background-color: cornflowerblue;
+ border-radius: 25px;
+}
+
+#profile-pic {
+    border-radius: 25%;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    vertical-align: middle;
+}
