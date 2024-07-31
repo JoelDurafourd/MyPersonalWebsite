@@ -8,7 +8,6 @@ body {
 
 .navbar .jd-logo img {
   width: 80px;
-  /* display: flex; */
 }
 
 .navbar h3 {
@@ -20,4 +19,17 @@ body {
   display: flex;
   align-items: center;
   padding: 20px;
+}
+
+.menu {
+  border-right: 5px solid red;
+}
+
+.menu-item a {
+color: white;
+text-decoration: none;
+}
+
+.middle-section {
+  display: flex;
 }
