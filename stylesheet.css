@@ -1,0 +1,23 @@
+body {
+  background-image: linear-gradient(#03648A, #02233D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.navbar .jd-logo img {
+  width: 80px;
+  /* display: flex; */
+}
+
+.navbar h3 {
+  color: white;
+  padding: 10px;
+}
+
+.nav-title {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
