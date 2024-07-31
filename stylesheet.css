@@ -4,6 +4,26 @@ body {
   background-repeat: no-repeat;
   width: 100vw;
   min-height: 100vh;
+  overflow: hidden;
+}
+
+.page-container {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+  height: 100%;
+}
+
+.page-loaded .page-container {
+  opacity: 1;
+}
+
+.fade-in-content {
+  opacity: 0;
+  transition: opacity 5s ease-in;
+}
+
+.page-loaded .fade-in-content {
+  opacity: 1;
 }
 
 .navbar .jd-logo img {
@@ -49,6 +69,8 @@ body {
   font-size: large;
   text-decoration: none;
   transition: color 0.5s ease;
+  display: block;
+  padding: 10px;
 }
 
 .menu-item a:hover {
