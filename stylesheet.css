@@ -100,3 +100,33 @@ body {
   height: 100%;
   object-fit: cover; /* Ensure the image covers the container */
 }
+
+.overview-about-me {
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.overview-interior {
+  display: flex;
+}
+
+.overview-languages {
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.star-pic {
+  height: 25px;
+  width: 25px;
+}
+
+.professional-exp {
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 25px;
+}
