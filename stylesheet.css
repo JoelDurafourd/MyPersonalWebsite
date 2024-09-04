@@ -7,6 +7,11 @@ body {
   overflow: hidden;
 }
 
+/* dark purple */
+/* #3E0B3F  */
+/* light purple */
+/* #714575 */
+
 .page-container {
   opacity: 0;
   transition: opacity 1s ease-in;
@@ -129,4 +134,44 @@ body {
   border-radius: 25px;
   padding: 25px;
   margin: 25px;
+}
+
+.overview-languages {
+  display: flex;
+}
+
+.star {
+  padding: 8px;
+}
+
+.languages {
+  padding: 5px;
+}
+
+.professional-exp {
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.experience-container {
+  margin: 20px;
+}
+.experience {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+.job-title {
+  font-weight: bold;
+}
+.company-name {
+  font-style: italic;
+}
+.job-dates {
+  color: #555;
+}
+.job-location {
+  color: #777;
 }
