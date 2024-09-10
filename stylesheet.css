@@ -114,12 +114,16 @@ body {
 }
 
 .overview-about-me {
-  background-color: white;
+  /* background-image: linear-gradient(#02233D, #03648A); */
+  background-color: #03648A;
   border-radius: 25px;
   padding: 25px;
   margin: 25px;
   justify-content: center;
   align-items: center;
+  border: 5px solid white;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .overview-interior {
@@ -127,10 +131,13 @@ body {
 }
 
 .overview-languages {
-  background-color: white;
+  background-color: #03648A;
   border-radius: 25px;
   padding: 25px;
   margin: 25px;
+  border: 5px solid white;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .star-pic {
@@ -159,18 +166,25 @@ body {
 
 .professional-exp {
   overflow-y: auto;
-  max-height: 500px;
+  max-height: 725px;
+  background-color: #03648A;
+  border: 5px solid white;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .experience-container {
   margin: 20px;
 }
+
 .experience {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 15px;
   margin-bottom: 10px;
   background-color: #f9f9f9;
+  color: #000000;
+  text-shadow: none;
 }
 .job-title {
   font-weight: bold;
@@ -188,10 +202,13 @@ body {
 .hobbies-box {
   overflow-y: auto;
   max-height: 500px;
-  background-color: white;
   border-radius: 25px;
   padding: 25px;
   margin: 25px;
+  background-color: #03648A;
+  border: 5px solid white;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .hobbies-container {
@@ -204,13 +221,21 @@ body {
   padding: 15px;
   margin-bottom: 10px;
   background-color: #f9f9f9;
+  color: black;
+  text-shadow: none;
 }
 
 .projects-container {
   text-align: center;
   max-width: 1200px;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
+  margin: 40px;
+  background-color: #03648A;
+  border: 5px solid white;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  border-radius: 25px;
 }
 
 .project-card-container {
@@ -230,6 +255,8 @@ body {
   overflow: hidden;
   width: 300px;
   transition: transform 0.3s ease;
+  color: black;
+  text-shadow: none;
 }
 
 .project-card:hover {
