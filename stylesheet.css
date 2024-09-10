@@ -175,3 +175,24 @@ body {
 .job-location {
   color: #777;
 }
+
+.hobbies-box {
+  overflow-y: auto;
+  max-height: 500px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.hobbies-container {
+  margin: 20px;
+}
+
+.hobby {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
