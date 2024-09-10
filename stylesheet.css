@@ -264,29 +264,82 @@ body {
 
 /* Styles for tablets and smaller screens */
 @media (max-width: 768px) {
-  .container {
-      width: 90%;
-      padding: 15px;
+  .navbar .jd-logo img {
+    width: 20px;
   }
 
-  .header, .footer {
-      font-size: 1.2em;
+  .navbar h3 {
+    padding: 1px;
+    font-size: 10px;
+  }
+
+  .navbar a {
+    padding: 1px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+  }
+
+  .nav-title {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }
+
+  .navbar {
+    transition: 0.5s ease;
+  }
+
+  .navbar :hover {
+    color: gray;
+  }
+
+  .menu {
+    border-right: 2px solid white;
+  }
+  
+  .menu-item a {
+    font-size: 10px;
   }
 }
 
 /* Styles for mobile screens */
 @media (max-width: 480px) {
-  .container {
-      width: 100%;
-      padding: 10px;
+  .navbar .jd-logo img {
+    width: 20px;
   }
 
-  .header, .footer {
-      font-size: 1em;
+  .navbar h3 {
+    padding: 1px;
+    font-size: 10px;
+  }
+
+  .navbar a {
+    padding: 1px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+  }
+
+  .nav-title {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }
+
+  .navbar {
+    transition: 0.5s ease;
+  }
+
+  .navbar :hover {
+    color: gray;
   }
 
   .menu {
-      display: block;
-      /* Styles for a mobile-friendly menu */
+    border-right: 2px solid white;
+  }
+
+  .menu-item a {
+    font-size: 10px;
   }
 }
