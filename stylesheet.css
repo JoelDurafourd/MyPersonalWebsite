@@ -97,13 +97,16 @@ body {
   height: 100vh; /* Adjust as needed */
   overflow: hidden; /* Optional, hides overflow */
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .about-me-pic img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensure the image covers the container */
+  object-fit: cover;
+}
+
+.about-me-info {
+  justify-content: center;
+  align-items: center;
 }
 
 .overview-about-me {
@@ -111,6 +114,8 @@ body {
   border-radius: 25px;
   padding: 25px;
   margin: 25px;
+  justify-content: center;
+  align-items: center;
 }
 
 .overview-interior {
