@@ -13,54 +13,91 @@
 </head>
 
 <body>
-  <div class="page-container">
-    <div class="middle-section">
-      <div class="menu d-flex flex-column align-items-center">
-        <div class="navbar">
-          <div class="nav-title">
-            <div class="jd-logo">
-              <img src="images/JDLogowhite.png" alt="JD Logo">
-            </div>
-            <h3><a href="https://www.linkedin.com/in/joel-durafourd/">Joël Durafourd</a></h3>
-          </div>
+  <div class="page">
+    <div class="navbar">
+      <div class="nav-title">
+        <div class="jd-logo">
+          <img src="images/JDLogowhite.png" alt="JD Logo">
         </div>
-        <div class="links">
-          <div class="menu-item">
-            <a href="#" onclick="navigate('overview')">Overview</a>
-          </div>
-          <div class="menu-item">
-            <a href="#" onclick="navigate('experiences')">Job Experience</a>
-          </div>
-          <div class="menu-item">
-            <a href="#" onclick="navigate('projects')">Projects</a>
-          </div>
-        </div>
-      </div>
-      <div class="view">
-        <div class="about-me">
-          <div class="about-me-pic">
-            <img src="images/resto-jo.JPG" alt="world's most handsome man">
-          </div>
-        </div>
+        <a href="https://www.linkedin.com/in/joel-durafourd/">Joël Durafourd</a>
       </div>
     </div>
-  </div>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      document.body.classList.add('page-loaded');
-    });
-  </script>
-  <script src="index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-</body>
+    <div class="joel-pic-container">
+      <div>
+        <img id="joel-pic" src="images/joel rotated.png" alt="world's most handsome man">
+      </div>
+    </div>
+    <div class="personal-motto-container">
+      <div class="personal-motto">
+      <p>“There’s no problem that’s unsolvable, given enough time...“</p>
+    </div>
+    </div>
+    <div class="tech-stack">
+      <div class="tech-icon">
+        <img src="images/rails-icon.png" alt="rails icon">
+        <p>Rails</p>
+      </div>
+      <div class="tech-icon">
+        <img src="images/ruby-icon.png" alt="rails icon">
+        <p>Ruby</p>
+      </div>
+      <div class="tech-icon">
+        <img src="images/javascript-icon.png" alt="rails icon">
+        <p>JS</p>
+      </div>
+      <div class="tech-icon">
+        <img src="images/html-icon.png" alt="rails icon">
+        <p>html</p>
+      </div>
+      <div class="tech-icon">
+        <img src="images/css-icon.png" alt="rails icon">
+        <p>CSS</p>
+      </div>
+      <div class="tech-icon">
+        <img src="images/git-icon.png" alt="rails icon">
+        <p>GIT</p>
+      </div>
+      <div class="tech-icon">
+        <img src="images/python-icon.png" alt="rails icon">
+        <p>Python</p>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="projects-container">
+        <p class="projects-title" id="projects-title">My Projects:</p>
+        <div class="project-card-container">
+          <div class="project-card">
+            <img src="images/lingualink_homepage.png" alt="Lingua-Link homepage image">
+            <div class="project-card-content">
+              <p>Lingua-Link</p>
+              <p>Lingua-Link is an app for scheduling, but with a twist. The aim is to connect professionals and freelancers with their clients regardless of language, with automatic translation and line integration.<br>My role: Lead Developer/Creator<br>
+                <a href="https://www.lingua-l.ink">https://www.lingua-l.ink</a></p>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="images/studysync_homepage.png" alt="StudySync homepage image">
+            <div class="project-card-content">
+              <p>StudySync</p>
+              <p>StudySync is built for people who like to learn through other people. Want to learn Guitar? Find a guitar tutor within your budget quickly and easily. Connect with teachers and learners alike and find your passions.<br>My role: Lead Developer<br>
+                <a href="https://studysync-d6f93698ab20.herokuapp.com">https://www.studysync.ink</a></p>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="images/coming_soon.png" alt="StudySync homepage image">
+            <div class="project-card-content">
+              <h3>Coming soon...</h3>
+              <p>My next project is on the way, but currently unavailable... Stay tuned<br>My role: Lead Developer<br>
+                <a href="#">https://www.battle-adventure-game.ink</a></p>
+            </div>
+          </div>
+          </div>
 
+        </div>
+    </div>
+  </div>
+  <div>
+
+  </div>
+</body>
 
 </html>
