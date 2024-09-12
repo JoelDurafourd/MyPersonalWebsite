@@ -100,6 +100,12 @@ body {
   height: 60px;
   filter: invert(1) brightness(1);
   color: black;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tech-icon:hover {
+  transform: translateY(-10px);
+  background-color: #2980b9;
 }
 
 .tech-icon img {
@@ -143,7 +149,6 @@ body {
   gap: 20px;
 }
 
-/* Individual project card styling */
 .project-card {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -151,12 +156,17 @@ body {
   text-align: center;
   padding: 20px;
   background-color: #f4f4f4;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
 }
 
 .project-card img {
   width: 100%;
-  height: auto; /* Ensures image maintains aspect ratio */
-  border-bottom: 2px solid #eee; /* Subtle separator between image and content */
+  height: auto;
+  border-bottom: 2px solid #eee;
 }
 
 .project-card-content {
