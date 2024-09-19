@@ -18,6 +18,10 @@ body {
   animation: fadeIn 3s forwards;
 }
 
+.d-none {
+  display: none;
+}
+
 /* .fade-in-content {
   opacity: 1;
 } */
@@ -126,6 +130,38 @@ body {
 }
 
 .tech-icon p {
+  margin: 0;
+  font-weight: bolder;
+}
+
+
+.games {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.game-title {
+  cursor: pointer;
+}
+
+.game {
+  margin-top: 20px;
+}
+
+.game button {
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.game p {
   margin: 0;
   font-weight: bolder;
 }

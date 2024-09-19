@@ -73,6 +73,24 @@
         <p>Python</p>
       </div>
     </div>
+    <div class="games">
+      <div>
+        <p>Want to play a game to pass the time?</p>
+      </div>
+      <div class="game">
+        <p class="game-title" onclick="showGame('blackjack-game')">Blackjack</p>
+        <div id="blackjack-game" class="game-container d-none">
+          <p id="message-el">Want to play a round?</p>
+          <p id="cards-el">Cards:</p>
+          <p id="sum-el">Sum:</p>
+          <button id="start-btn" onclick="startGame()">START GAME $50</button>
+          <button id="newcard-btn" onclick="newCard()">NEW CARD</button>
+          <p id="chips-el"></p>
+          <button id="resetgame-btn" onclick="resetGame()">RESET GAME</button>
+          <script src="index.js"></script>
+        </div>
+      </div>
+    </div>
     <div class="projects">
       <div class="projects-container">
         <p class="projects-title" id="projects-title">My Projects:</p>
